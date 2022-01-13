@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: linear-gradient(to left, rgb(5, 36, 26), rgb(53, 158, 184));
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+table, th, td{
+    border-collapse: separate;
+}
+table{
+    width: 90%;
+    margin: auto;
+    background:inherit;
+    border-radius: 10px;
+}
+td,th{
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    color:#2a9d8f;
+}
+

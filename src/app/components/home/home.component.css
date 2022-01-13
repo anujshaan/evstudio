@@ -1,0 +1,5 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: linear-gradient(to left, rgb(5, 36, 26), rgb(53, 158, 184));
+}

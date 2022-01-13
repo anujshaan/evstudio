@@ -1,0 +1,14 @@
+<div class="loginWrapper">
+    <form [formGroup]="loginForm" (ngSubmit)="login()" novalidate>
+        <div id="profile" tabindex="0">
+            <label >Username</label>
+            <input type="text" placeholder="anujshaan" formControlName="username">
+        </div>
+        <div id="profile" tabindex="0">
+            <label >Password</label>
+            <input type="password" placeholder="*******" formControlName="password">
+        </div>
+        <button>Login</button>
+        <span>Already have account? <a href="/signup">signup Here</a></span>
+    </form>
+</div>

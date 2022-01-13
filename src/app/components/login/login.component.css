@@ -1,0 +1,63 @@
+.loginWrapper{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: linear-gradient(to left, rgb(5, 36, 26), rgb(53, 158, 184));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 70vh;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    position: relative;
+    border:1px solid black;
+}
+form div label{
+    position:absolute;
+    top: -10px;
+    left: 20px;
+    z-index: 2;
+    padding: 0 2px;
+}
+/* #profile:focus{
+    background: green;    
+} */
+form div input{
+    height: 100%;
+    width: 100%;
+    border:none;
+    padding: 0 20px;
+    font-size: 16px;
+}
+form div input:focus{
+    outline: none;
+}
+form button{
+    width: 90%;
+    height: 46px;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #2a9d8f;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 auto;
+    cursor: pointer;
+}
+form a{
+    color: tomato;
+}
